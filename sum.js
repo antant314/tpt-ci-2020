@@ -1,5 +1,5 @@
 function randonthindgmidagi(a = 0, b = 'kala') {
-  const a1 = Number(a);
+  const a1 = Numberblah(a);
   const b1 = Number(b);
   if (Number.isNaN(a1) || Number.isNaN(b1)) {
     throw new Error('Invalid arguments');
